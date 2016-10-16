@@ -1,6 +1,6 @@
 app.controller('NFLController', function($scope, $http) {
-	$http.get("http://ec2-54-244-135-126.us-west-2.compute.amazonaws.com/gettabledata.php")
+	$http.get("http://ec2-54-214-112-22.us-west-2.compute.amazonaws.com/testdata.php")
 		.then(function(response) {
-			$scope.records = response.data.records;
+			$scope.tables = response.data;
 		});
 });

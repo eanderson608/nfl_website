@@ -4,15 +4,26 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
-  <body>  
+  <body>
+
+    <h1>NFL Vegas Lines vs Consensus</h1>  
 
     <div ng-app="NFLApp" ng-controller="NFLController">
      
-    <table>
-      <tr ng-repeat="x in records">
-        <td>{{ x.Label }}</td>
-        <td>{{ x.Value }}</td>
+    <table ng-repeat="table in tables">
+
+      <tr>
+        <th>Day</th>
+        <th>Line</th>
+        <th>Consensus</th>
       </tr>
+
+      <tr ng-repeat="row in table">
+        <td>{{ row.Day }}</td>
+        <td>{{ row.Line }}</td>
+        <td>{{ row.Consensus }}</td>
+      </tr>
+
     </table>
 
     </div>
