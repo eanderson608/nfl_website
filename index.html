@@ -14,8 +14,9 @@
         <p class="error">ERROR: could not load tables</p>
       </div>
        
-      <table ng-repeat="table in tables">
+      <table ng-repeat="(name,table) in tables">
 
+        <caption><h2>{{name}}</h2></caption>
         <tr>
           <th>Day</th>
           <th>Line</th>
