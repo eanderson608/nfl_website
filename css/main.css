@@ -1,3 +1,15 @@
+.error {
+	color: red;
+}
+
+.siteinfo {
+	margin: 30px;
+}
+
+.siteinfo h2 {
+	margin-top: 50px;
+}
+
 table, th , td  {
   border: 1px solid grey;
   border-collapse: collapse;
@@ -9,7 +21,7 @@ th {
 }
 
 table {
-	margin-bottom: 20px;
+	margin: 30px;
 }
 
 table tr:nth-child(odd) {
