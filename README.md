@@ -4,4 +4,4 @@
 
 <h1>how it works</h1>
 
-<p>Currently I have an AWS EC2 instance hosting the website and an AWS RDS hosting the database.  When the project is completed the EC2 instance will run a web scraper written in Python using BeautifulSoup to scrape the game and vegas lines and upload to the RDS at certain times of the day.  Currently the tables being displayed are sample data located at: <a href="http://ec2-54-214-112-22.us-west-2.compute.amazonaws.com/testdata.php">http://ec2-54-214-112-22.us-west-2.compute.amazonaws.com/testdata.php</a>.  The website itself uses HTML, CSS, and AngularJS.</p>
+<p>Currently I have an AWS EC2 instance hosting the website and an AWS RDS hosting the database.  When the project is completed the EC2 instance will run a web scraper written in Python using BeautifulSoup to scrape the game info and vegas lines and upload to the RDS at certain times of the day.  Currently the tables being displayed are sample data located at: <a href="http://ec2-54-214-112-22.us-west-2.compute.amazonaws.com/testdata.php">http://ec2-54-214-112-22.us-west-2.compute.amazonaws.com/testdata.php</a>.  The website itself uses HTML, CSS, and AngularJS.</p>
